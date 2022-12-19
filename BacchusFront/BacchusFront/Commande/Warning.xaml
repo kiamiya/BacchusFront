@@ -1,0 +1,15 @@
+﻿<Window x:Class="BacchusFront.Commande.Warning"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BacchusFront.Commande"
+        mc:Ignorable="d"
+        Title="Warning" Height="450" Width="800">
+    <Grid>
+        <Label Content="Attention, le produit suivant : xxxx est bientot en rupture de stock, Voulez vous passer une commande?" Margin="135,200,103,200"/>
+        <Button Name="Ok" Content="Ok" HorizontalAlignment="Left" Height="52" Margin="250,270,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_Ok"/>
+        <Button Name ="Later" Content="Plus tard" HorizontalAlignment="Left" Height="52" Margin="450,270,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_Later"/>
+        <Image Margin="55,200,695,200" Source="/IMG/kisspng-warning-sign-safety-clip-art-alerte-5b24c55be18cb4.6245821115291364759239.png" Stretch="Fill"/>
+    </Grid>
+</Window>
